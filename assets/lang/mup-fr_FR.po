@@ -1,0 +1,1010 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MusicPress\n"
+"POT-Creation-Date: 2015-03-03 21:50-0000\n"
+"PO-Revision-Date: 2015-03-03 21:50-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: assets/inc/mup-admin-columns.php:28
+msgid "Venue"
+msgstr "Lieu :"
+
+#: assets/inc/mup-admin-columns.php:29
+msgid "Address"
+msgstr "Adresse"
+
+#: assets/inc/mup-admin-columns.php:30 assets/inc/mup-admin-meta-boxes.php:80
+msgid "Date"
+msgstr "Date"
+
+#: assets/inc/mup-admin-columns.php:31 assets/inc/mup-admin-meta-boxes.php:86
+msgid "Time"
+msgstr "Heure"
+
+#: assets/inc/mup-admin-columns.php:32 assets/inc/mup-admin-meta-boxes.php:93
+msgid "Ticket Cost"
+msgstr "Prix du billet"
+
+#: assets/inc/mup-admin-columns.php:76
+msgid "Address not entered"
+msgstr "adresse ne pas entrée"
+
+#: assets/inc/mup-admin-columns.php:88 assets/inc/mup-admin-columns.php:194
+msgid "Date not entered"
+msgstr "Date de n'entrée pas"
+
+#: assets/inc/mup-admin-columns.php:100
+msgid "Time not entered"
+msgstr "Temps n'est ne pas entré"
+
+#: assets/inc/mup-admin-columns.php:113 assets/inc/mup-admin-columns.php:219
+#: assets/inc/mup-admin-columns.php:293
+msgid "Free"
+msgstr "Gratuit"
+
+#: assets/inc/mup-admin-columns.php:147
+msgid "Track Name"
+msgstr "Nom de la piste"
+
+#: assets/inc/mup-admin-columns.php:148
+#: assets/inc/mup-admin-meta-boxes.php:145
+msgid "Release Date"
+msgstr "Date de sortie"
+
+#: assets/inc/mup-admin-columns.php:149
+#: assets/inc/mup-admin-meta-boxes.php:139
+msgid "Price"
+msgstr "Prix"
+
+#: assets/inc/mup-admin-columns.php:150
+#: assets/inc/mup-admin-meta-boxes.php:152
+msgid "Purchase Link"
+msgstr "Lien d'achat"
+
+#: assets/inc/mup-admin-columns.php:206
+msgid "Link not entered"
+msgstr "Lien ne pas entré"
+
+#: assets/inc/mup-admin-columns.php:253 assets/inc/mup-admin.php:494
+msgid "Email"
+msgstr "Email"
+
+#: assets/inc/mup-admin-columns.php:256
+#: assets/inc/mup-admin-meta-boxes.php:183
+msgid "Country"
+msgstr "Pays"
+
+#: assets/inc/mup-admin-email.php:34 assets/inc/mup-front-widgets.php:467
+msgid "Email address not entered."
+msgstr "Adresse email non fourni."
+
+#: assets/inc/mup-admin-email.php:46 assets/inc/mup-front-widgets.php:479
+msgid "Email address not valid."
+msgstr "Adresse électronique non valable"
+
+#: assets/inc/mup-admin-email.php:82
+msgid "Email sent. Please check your inbox."
+msgstr "Email envoyé. S'il vous plaît vérifier votre boîte de réception."
+
+#: assets/inc/mup-admin-email.php:92 assets/inc/mup-admin.php:565
+#: assets/inc/mup-front-widgets.php:551
+msgid "Email could not be sent. Please check your email settings."
+msgstr ""
+"Courriel n'a pas pu être envoyé. S'il vous plaît vérifier vos paramètres de "
+"messagerie."
+
+#: assets/inc/mup-admin-email.php:104 assets/inc/mup-front-widgets.php:564
+msgid "Unable to verify form submission."
+msgstr "Impossible de vérifier l'envoi du formulaire."
+
+#: assets/inc/mup-admin-functions.php:38
+#, php-format
+msgid "Track updated. <a href=\"%s\">View Track</a>"
+msgstr "Mise jour de la piste <a href=\"%s\"> Voir Suivi </a>"
+
+#: assets/inc/mup-admin-functions.php:39 assets/inc/mup-admin-functions.php:67
+msgid "Custom field updated"
+msgstr "Champ personnalisé mis à jour."
+
+#: assets/inc/mup-admin-functions.php:40 assets/inc/mup-admin-functions.php:68
+msgid "Custom field deleted"
+msgstr "Champ personnalisé supprimé"
+
+#: assets/inc/mup-admin-functions.php:41
+msgid "Track updated."
+msgstr "Piste mise jour."
+
+#: assets/inc/mup-admin-functions.php:42
+#, php-format
+msgid "Track restored to revision from %s"
+msgstr "restauré à la révision du %s"
+
+#: assets/inc/mup-admin-functions.php:43
+#, php-format
+msgid "Track published. <a href=\"%s\">View track</a>"
+msgstr "Piste publiée. <a href=\"%s\">Vue piste</a>"
+
+#: assets/inc/mup-admin-functions.php:44
+msgid "Track saved."
+msgstr "sauvé piste"
+
+#: assets/inc/mup-admin-functions.php:45
+#, php-format
+msgid "Track submitted. <a target=\"_blank\" href=\"%s\">Preview track</a>"
+msgstr "Piste soumis . <a target=\"_blank\" href=\"%s\">Extrait du titre</a>"
+
+#: assets/inc/mup-admin-functions.php:46
+#, php-format
+msgid ""
+"Track scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview track</a>"
+msgstr ""
+"Piste prévue pour : <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Extrait du titre</a>"
+
+#: assets/inc/mup-admin-functions.php:46 assets/inc/mup-admin-functions.php:60
+#: assets/inc/mup-admin-functions.php:74
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: assets/inc/mup-admin-functions.php:47
+#, php-format
+msgid "Track draft updated. <a target=\"_blank\" href=\"%s\">Preview track</a>"
+msgstr "Piste mise jour. <a target=\"_blank\" href=\"%s\">Extrait du titre</a>"
+
+#: assets/inc/mup-admin-functions.php:52 assets/inc/mup-admin-functions.php:55
+#: assets/inc/mup-admin-functions.php:69
+msgid "Gig updated."
+msgstr "Concert à jour."
+
+#: assets/inc/mup-admin-functions.php:53
+msgid "Custom field updated."
+msgstr "Champ personnalisé mis à jour."
+
+#: assets/inc/mup-admin-functions.php:54
+msgid "Custom field deleted."
+msgstr "Champ personnalisé supprimé"
+
+#: assets/inc/mup-admin-functions.php:56
+#, php-format
+msgid "Gig restored to revision from %s"
+msgstr "Restauré à la révision du %s"
+
+#: assets/inc/mup-admin-functions.php:57
+#, php-format
+msgid "Gig published. <a href=\"%s\">View gig</a>"
+msgstr "Concert publié. <a href=\"%s\">Concert vue</a>"
+
+#: assets/inc/mup-admin-functions.php:58
+msgid "Gig saved."
+msgstr "Concert sauvé"
+
+#: assets/inc/mup-admin-functions.php:59
+#, php-format
+msgid "Gig submitted. <a target=\"_blank\" href=\"%s\">Preview gig</a>"
+msgstr "Concert sauvé. <a target=\"_blank\" href=\"%s\">Concert Preview</a>"
+
+#: assets/inc/mup-admin-functions.php:60
+#, php-format
+msgid ""
+"Gig scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview gig</a>"
+msgstr ""
+"Concert prévue pour : <strong>%1$s< / strong > . <a target=\"_blank\" href="
+"\"%2$s\">Aperçu concert</a>"
+
+#: assets/inc/mup-admin-functions.php:61
+#, php-format
+msgid "Gig draft updated. <a target=\"_blank\" href=\"%s\">Preview gig</a>"
+msgstr ""
+"Gig de mise à jour . <a target=\"_blank\" href=\"%s\">Aperçu concert</a>"
+
+#: assets/inc/mup-admin-functions.php:66
+msgid "Fan updated"
+msgstr "Ventilateur sauvé."
+
+#: assets/inc/mup-admin-functions.php:70
+msgid "Fan restored"
+msgstr "Ventilateur rétablie"
+
+#: assets/inc/mup-admin-functions.php:71
+msgid "Fan published"
+msgstr "Ventilateur publié"
+
+#: assets/inc/mup-admin-functions.php:72
+msgid "Fan saved."
+msgstr "Ventilateur sauvé."
+
+#: assets/inc/mup-admin-functions.php:73
+msgid "Fan submitted"
+msgstr "Fan soumis"
+
+#: assets/inc/mup-admin-functions.php:74
+#, php-format
+msgid "Fan scheduled for: <strong>%1$s</strong>"
+msgstr "Fan prévue <strong>%1$s</strong>"
+
+#: assets/inc/mup-admin-functions.php:75
+msgid "Fan draft updated"
+msgstr "Ventilateur sauvé."
+
+#: assets/inc/mup-admin-meta-boxes.php:18
+msgid "Venue Information"
+msgstr "Lieu informations"
+
+#: assets/inc/mup-admin-meta-boxes.php:30
+msgid "Track Information"
+msgstr "Ajouter les informations de piste"
+
+#: assets/inc/mup-admin-meta-boxes.php:42
+msgid "Fan Information"
+msgstr "Informations de ventilateur"
+
+#: assets/inc/mup-admin-meta-boxes.php:74
+msgid "Location"
+msgstr "Lieu"
+
+#: assets/inc/mup-admin-meta-boxes.php:76
+msgid "Enter the address"
+msgstr "Entrez l'adresse"
+
+#: assets/inc/mup-admin-meta-boxes.php:82
+msgid "Enter the date"
+msgstr "Entrez la date"
+
+#: assets/inc/mup-admin-meta-boxes.php:88
+msgid "Enter the time"
+msgstr "Entrez l'heure"
+
+#: assets/inc/mup-admin-meta-boxes.php:95
+msgid "Enter a price"
+msgstr "Entrez un prix"
+
+#: assets/inc/mup-admin-meta-boxes.php:99
+msgid "Ticket URL"
+msgstr "URL du billet"
+
+#: assets/inc/mup-admin-meta-boxes.php:101
+#: assets/inc/mup-admin-meta-boxes.php:154
+#: assets/inc/mup-admin-meta-boxes.php:160
+msgid "Paste link"
+msgstr "Coller le lien"
+
+#: assets/inc/mup-admin-meta-boxes.php:133
+msgid "Description"
+msgstr "Description"
+
+#: assets/inc/mup-admin-meta-boxes.php:141
+msgid "Enter price"
+msgstr "Entrez le prix"
+
+#: assets/inc/mup-admin-meta-boxes.php:147
+msgid "Enter Date"
+msgstr "Entrez la Date"
+
+#: assets/inc/mup-admin-meta-boxes.php:158 assets/inc/mup-admin.php:60
+msgid "SoundCloud URL"
+msgstr "Lien SoundCloud"
+
+#: assets/inc/mup-admin-meta-boxes.php:185
+msgid "Enter a country"
+msgstr "saisir pays"
+
+#: assets/inc/mup-admin-meta-boxes.php:208 assets/inc/mup-admin.php:249
+#: assets/inc/mup-admin.php:592
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous n'avez pas les permissions nécessaires pour accéder à cette page."
+
+#: assets/inc/mup-admin.php:56
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: assets/inc/mup-admin.php:57
+msgid "Facebook URL"
+msgstr "URL Facebook"
+
+#: assets/inc/mup-admin.php:58
+msgid "YouTube URL"
+msgstr "URL YouTube"
+
+#: assets/inc/mup-admin.php:59
+msgid "Google Plus URL"
+msgstr "URL Google Plus"
+
+#: assets/inc/mup-admin.php:61
+msgid "itunes URL"
+msgstr "URL de l'iTunes"
+
+#: assets/inc/mup-admin.php:66
+msgid "Currency Symbol"
+msgstr "Symbole de devise"
+
+#: assets/inc/mup-admin.php:67
+msgid "MusicPress Footer Credit"
+msgstr "Crédit de pied de page de MusicPress"
+
+#: assets/inc/mup-admin.php:103
+msgid "Twitter URL: Incorrect URL format"
+msgstr "Twitter URL : format d'URL incorrecte"
+
+#: assets/inc/mup-admin.php:106
+msgid "Twitter URL: Only http or https allowed"
+msgstr "Twitter URL : Seul http ou https autorisés"
+
+#: assets/inc/mup-admin.php:110
+msgid "Facebook URL: Incorrect URL format"
+msgstr "Facebook URL : Format d'URL incorrecte"
+
+#: assets/inc/mup-admin.php:113
+msgid "Facebook URL: Only http or https allowed"
+msgstr "Facebook URL : Seul http ou https autorisés"
+
+#: assets/inc/mup-admin.php:117
+msgid "YouTube URL: Incorrect URL format"
+msgstr "YouTube URL : Format URL incorrecte"
+
+#: assets/inc/mup-admin.php:120
+msgid "YouTube URL: Only http or https allowed"
+msgstr "YouTube URL : Seul http ou https autorisés"
+
+#: assets/inc/mup-admin.php:124
+msgid "Google Plus URL: Incorrect URL format"
+msgstr "URL Google Plus : Format Incorrect URL"
+
+#: assets/inc/mup-admin.php:127
+msgid "Google Plus URL: Only http or https allowed"
+msgstr "URL de Google Plus : Seul http ou https autorisés"
+
+#: assets/inc/mup-admin.php:131
+msgid "SoundCloud URL: Incorrect URL format"
+msgstr "SoundCloud URL : Format d'URL incorrecte"
+
+#: assets/inc/mup-admin.php:134
+msgid "SoundCloud URL: Only http or https allowed"
+msgstr "SoundCloud URL : Seul http ou https autorisés"
+
+#: assets/inc/mup-admin.php:138
+msgid "iTunes URL: Incorrect URL format"
+msgstr "iTunes URL : format d'URL incorrecte"
+
+#: assets/inc/mup-admin.php:141
+msgid "iTunes URL: Only http or https allowed"
+msgstr "iTunes URL : seulement http ou https autorisés"
+
+#: assets/inc/mup-admin.php:144
+msgid "Too many characters in currency symbol"
+msgstr "Trop de caractères dans le symbole monétaire"
+
+#: assets/inc/mup-admin.php:161
+msgid "CSS saved"
+msgstr "CSS sauvé"
+
+#: assets/inc/mup-admin.php:175
+msgid "Email saved"
+msgstr "Email enregistré"
+
+#: assets/inc/mup-admin.php:257
+msgid ""
+"Thanks for downloading! MusicPress helps you list your gigs, tracks and "
+"notify your fans. "
+msgstr ""
+"Merci d'avoir télécharger! MusicPress aide vous listez vos spectacles, "
+"pistes et avisez vos fans."
+
+#: assets/inc/mup-admin.php:258
+msgid "Upgrade to the PRO version"
+msgstr "Mise à niveau vers la version PRO"
+
+#: assets/inc/mup-admin.php:260
+msgid "Version"
+msgstr "Version"
+
+#: assets/inc/mup-admin.php:265 musicpress.php:223
+msgid "Welcome"
+msgstr "Bienvenue"
+
+#: assets/inc/mup-admin.php:266 musicpress.php:224
+msgid "Settings"
+msgstr "Settings"
+
+#: assets/inc/mup-admin.php:267
+msgid "Custom Styling"
+msgstr "Personnalisé Styling"
+
+#: assets/inc/mup-admin.php:268
+msgid "Email your Fans"
+msgstr "Envoyez vos Fans"
+
+#: assets/inc/mup-admin.php:277
+msgid "Built For Musicians And Performers"
+msgstr "Construit pour les musiciens et les artistes interprètes ou exécutants"
+
+#: assets/inc/mup-admin.php:281
+msgid "What You Get"
+msgstr "Ce que vous obtenez"
+
+#: assets/inc/mup-admin.php:284
+msgid "Your Music, Your Performance"
+msgstr "Votre musique, vos performances"
+
+#: assets/inc/mup-admin.php:285
+msgid ""
+"MusicPress helps you show your tracks, gigs, podcasts, performances and "
+"social networks. MusicPress has been built to be easy to use without the "
+"need for hassle."
+msgstr ""
+"MusicPress vous aide à afficher vos titres, concerts, podcasts, performances "
+"et réseaux sociaux. MusicPress a été conçu pour être facile à utiliser, sans "
+"besoin de tracas."
+
+#: assets/inc/mup-admin.php:288 assets/inc/mup-front-widgets.php:100
+msgid "Fan Subscription"
+msgstr "Fan abonnement"
+
+#: assets/inc/mup-admin.php:289
+msgid ""
+"Email fans directly within MusicPress keeping them informed of your "
+"activities. Build your fan base using the subscription widget."
+msgstr ""
+"Email fans Envoyez directement avec MusicPress les tenir informés de vos "
+"activités . Construisez votre base de fans en utilisant le widget de "
+"souscription."
+
+#: assets/inc/mup-admin.php:292
+msgid "Widget Ready"
+msgstr "Widget Ready"
+
+#: assets/inc/mup-admin.php:293
+msgid ""
+"Drag and drop custom MusicPress widgets directly onto your page templates "
+"through the widgets section of WordPress. Pull out specific gigs, tracks, "
+"and social links."
+msgstr ""
+"Glisser et déposer des widgets personnalisés de MusicPress directement sur "
+"vos modèles de page par le biais de la section widgets WordPress. Tirez des "
+"concerts spécifiques, les titres et les liens sociaux."
+
+#: assets/inc/mup-admin.php:296
+msgid "Your Language"
+msgstr "Votre langue"
+
+#: assets/inc/mup-admin.php:297
+msgid ""
+"MusicPress currently translates into English, Chinese, French, Spanish and "
+"Russian with more languages being added with each new update. Let us know if "
+"you need a language."
+msgstr ""
+"MusicPress est actuellement traduit en anglais, chinois, Français, espagnol "
+"et russe avec d'autres langues étant ajouté à chaque nouvelle mise à jour. "
+"Faites-nous savoir si vous avez besoin d'une langue."
+
+#: assets/inc/mup-admin.php:301
+msgid "Pro Features Coming Soon"
+msgstr "Fonctionnalités Pro Coming Soon"
+
+#: assets/inc/mup-admin.php:320
+msgid "Social Links"
+msgstr "Réseaux sociaux"
+
+#: assets/inc/mup-admin.php:331
+msgid "General Settings"
+msgstr "Paramètres généraux"
+
+#: assets/inc/mup-admin.php:351
+msgid "Help"
+msgstr "Aide"
+
+#: assets/inc/mup-admin.php:352
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: assets/inc/mup-admin.php:353
+msgid "Here are the shortcodes you can use inside your content:"
+msgstr "Voici a les shortcodes que vous pouvez utiliser dans votre contenu :"
+
+#: assets/inc/mup-admin.php:355
+msgid "Show all your gigs and style up using the custom css panel."
+msgstr ""
+"Afficher tous vos concerts et le style à l'aide du panneau CSS personnalisé."
+
+#: assets/inc/mup-admin.php:357
+msgid "List a single gig."
+msgstr "Afficher un seul concert."
+
+#: assets/inc/mup-admin.php:359
+msgid "Show all your tracks and style up using the custom css panel."
+msgstr ""
+"Afficher tous vos morceaux et le style à l'aide du panneau CSS personnalisé."
+
+#: assets/inc/mup-admin.php:361
+msgid "List a single track and all its extra content."
+msgstr "Afficher une seule piste et tout son contenu supplémentaire."
+
+#: assets/inc/mup-admin.php:363
+msgid "Show all your social networks in one go."
+msgstr "Montrer tous vos réseaux sociaux en une seule fois."
+
+#: assets/inc/mup-admin.php:365
+msgid "Show a single social network link in your content."
+msgstr "Afficher un lien de réseau social unique dans votre contenu."
+
+#: assets/inc/mup-admin.php:367
+msgid "Functions"
+msgstr "Fonctions"
+
+#: assets/inc/mup-admin.php:369
+msgid "The following functions can be used in your templates:"
+msgstr "Les fonctions suivantes peuvent être utilisées dans vos modèles :"
+
+#: assets/inc/mup-admin.php:371
+msgid "Social urls can be linked to by using this."
+msgstr "Urls sociaux peuvent être liés à l'aide de cette ."
+
+#: assets/inc/mup-admin.php:373
+msgid "Pull out individual gig information using this function."
+msgstr "Obtenez de l'information de concert individu avec cette fonction."
+
+#: assets/inc/mup-admin.php:375
+msgid "Pull out individual track information using this function."
+msgstr "Obtenez de l'information de piste individuelle avec cette fonction."
+
+#: assets/inc/mup-admin.php:411
+msgid "Custom CSS"
+msgstr "CSS personnalisé"
+
+#: assets/inc/mup-admin.php:412
+msgid ""
+"Here you can overwrite the default MusicPress styling. Please see the "
+"musicpress-custom.css stylesheet in your theme folder once you click save at "
+"the bottom."
+msgstr ""
+"Ici, vous pouvez remplacer le style de MusicPress par défaut. Veuillez "
+"consulter la feuille de style musicpress-custom.css dans votre dossier de "
+"thème une fois que vous cliquez sur enregistrer en bas."
+
+#: assets/inc/mup-admin.php:437
+msgid "CSS Guide"
+msgstr "Guide CSS"
+
+#: assets/inc/mup-admin.php:439
+msgid "Here's a list of the most common selectors"
+msgstr "Voici une liste des classes CSS les plus courantes"
+
+#: assets/inc/mup-admin.php:441 musicpress.php:88
+msgid "Gigs"
+msgstr "Gig"
+
+#: assets/inc/mup-admin.php:450 musicpress.php:118
+msgid "Tracks"
+msgstr "Suivis"
+
+#: assets/inc/mup-admin.php:460
+msgid "Social"
+msgstr "Social"
+
+#: assets/inc/mup-admin.php:495
+msgid ""
+"Here you can add plain text and email your fanbase. MusicPress will store "
+"the email so you can use it again for future use. When you are ready to send "
+"your email press the Send Email button at the bottom."
+msgstr ""
+"Ici vous pouvez ajouter du texte et envoyez votre base de fans . MusicPress "
+"va stocker l'e-mail afin que vous puissiez l'utiliser à nouveau pour une "
+"utilisation future . Lorsque vous êtes prêt à envoyer votre email appuyez "
+"sur le bouton d'envoi d'email en bas ."
+
+#: assets/inc/mup-admin.php:497
+msgid "Please do not close this window while emails are being sent!"
+msgstr ""
+"S'il vows plaît ne fermez pas cette fenêtre, aloes que les courriels sont "
+"envoyés!"
+
+#: assets/inc/mup-admin.php:510
+msgid "Emails successfully sent."
+msgstr "Les e-mails envoyés."
+
+#: assets/inc/mup-admin.php:513
+msgid "Emails could not be sent."
+msgstr "Courriels n'a pas peuvent être envoyés."
+
+#: assets/inc/mup-admin.php:528
+msgid "Save Email"
+msgstr "Sauver les Email"
+
+#: assets/inc/mup-admin.php:532
+msgid "Send This Email"
+msgstr "Envoyer cet E-mail"
+
+#: assets/inc/mup-admin.php:543
+msgid "Email Rules"
+msgstr "Courriel de Règles"
+
+#: assets/inc/mup-admin.php:545
+msgid "Please check with your hosting supplier that you can send bulk emails."
+msgstr ""
+"Veuillez vérifier avec votre fournisseur d'hébergement que vous pouvez "
+"envoyer des e-mails en masse."
+
+#: assets/inc/mup-admin.php:550
+msgid "Test Email"
+msgstr "Mail test"
+
+#: assets/inc/mup-admin.php:551
+msgid "Enter a valid email address to get a preview in your inbox."
+msgstr ""
+"Entrez une adresse email valide pour obtenir un aperçu dans votre boîte de "
+"réception."
+
+#: assets/inc/mup-admin.php:554
+msgid "Send Preview"
+msgstr "Envoyer un extrait"
+
+#: assets/inc/mup-admin.php:562
+msgid "Please check your inbox."
+msgstr "Surveillez votre boîte de réception"
+
+#: assets/inc/mup-admin.php:595
+msgid "MusicPress Fans"
+msgstr "fans"
+
+#: assets/inc/mup-front-functions.php:280
+#: assets/inc/mup-front-functions.php:356
+#: assets/inc/mup-front-functions.php:440
+#: assets/inc/mup-front-functions.php:516
+#: assets/inc/mup-front-functions.php:637
+#: assets/inc/mup-front-functions.php:683
+msgid "FREE"
+msgstr "GRATUIT"
+
+#: assets/inc/mup-front-functions.php:281
+msgid "Buy Tickets"
+msgstr "Acheter des billets"
+
+#: assets/inc/mup-front-functions.php:289
+#: assets/inc/mup-front-functions.php:365
+msgid "Page"
+msgstr "Page"
+
+#: assets/inc/mup-front-functions.php:357
+#: assets/inc/mup-front-functions.php:641 assets/inc/mup-front-widgets.php:380
+msgid "Buy Track"
+msgstr "Acheter Track"
+
+#: assets/inc/mup-front-functions.php:442
+#: assets/inc/mup-front-functions.php:685 assets/inc/mup-front-widgets.php:221
+msgid "Tickets"
+msgstr "Tickets"
+
+#: assets/inc/mup-front-functions.php:450
+msgid "Gig not found"
+msgstr "Aucun concert trouvé"
+
+#: assets/inc/mup-front-functions.php:518
+msgid "Buy"
+msgstr "Acheter"
+
+#: assets/inc/mup-front-functions.php:521
+#: assets/inc/mup-front-functions.php:644 assets/inc/mup-front-widgets.php:383
+msgid "Listen"
+msgstr "Écouter"
+
+#: assets/inc/mup-front-functions.php:529
+msgid "Track not found"
+msgstr "Pas trouvé de piste"
+
+#: assets/inc/mup-front-widgets.php:34
+msgid "Adds a input form allowing fans to subscribe."
+msgstr "Ajoute un formulaire d'entrée permettant aux fans de s'abonner."
+
+#: assets/inc/mup-front-widgets.php:37
+msgid "Fan Subscribe"
+msgstr "Ventilateur s'abonner"
+
+#: assets/inc/mup-front-widgets.php:59
+msgid "Subscribe"
+msgstr "S'abonner"
+
+#: assets/inc/mup-front-widgets.php:106 assets/inc/mup-front-widgets.php:274
+#: assets/inc/mup-front-widgets.php:437
+msgid "Title:"
+msgstr "Titre :"
+
+#: assets/inc/mup-front-widgets.php:108 assets/inc/mup-front-widgets.php:276
+msgid "Text:"
+msgstr "Texte :"
+
+#: assets/inc/mup-front-widgets.php:130
+msgid "List your gigs in widget form."
+msgstr "Liste de vos concerts sous forme de widget."
+
+#: assets/inc/mup-front-widgets.php:133
+msgid "Show Gigs"
+msgstr "Voir la concerts"
+
+#: assets/inc/mup-front-widgets.php:228
+msgid "No gigs have been added yet."
+msgstr "Aucun concerts n'ont encore été ajoutés."
+
+#: assets/inc/mup-front-widgets.php:278
+msgid "Display number of gigs:"
+msgstr "Afficher le nombre de concerts :"
+
+#: assets/inc/mup-front-widgets.php:301
+msgid "List your tracks in widget form."
+msgstr "Liste de vos morceaux sous forme de widget."
+
+#: assets/inc/mup-front-widgets.php:304
+msgid "Show Tracks"
+msgstr "Afficher les pistes"
+
+#: assets/inc/mup-front-widgets.php:378
+msgid "Info"
+msgstr "Info"
+
+#: assets/inc/mup-front-widgets.php:391
+msgid "No tracks have been added."
+msgstr "Aucuns pistes n'ont été ajoutées."
+
+#: assets/inc/mup-front-widgets.php:439
+msgid "Supporting Text:"
+msgstr "Texte de soutien :"
+
+#: assets/inc/mup-front-widgets.php:441
+msgid "How many tracks in widget:"
+msgstr "Combien de pistes dans le widget :"
+
+#: assets/inc/mup-front-widgets.php:497
+msgid "Email address already added."
+msgstr "Adresse e-mail déjà ajouté."
+
+#: assets/inc/mup-front-widgets.php:533
+msgid "Email address subscribed"
+msgstr "Adresse e-mail souscrit"
+
+#: musicpress.php:58
+msgid "This plugin requires a minimum of WordPress 3.8.  Sorry about that."
+msgstr ""
+"Ce plugin nécessite un minimum de 3,8 de WordPress.  Désolé à ce sujet."
+
+#: musicpress.php:89
+msgid "My Gigs"
+msgstr "Mes concerts"
+
+#: musicpress.php:90
+msgid "Gig"
+msgstr "Gig"
+
+#: musicpress.php:91 musicpress.php:121 musicpress.php:153
+msgid "Add New"
+msgstr "Nouvelle"
+
+#: musicpress.php:92
+msgid "Add New Gig"
+msgstr "Ajouter la nouvelle date de concert"
+
+#: musicpress.php:93
+msgid "Edit Gig"
+msgstr "Edit Gig"
+
+#: musicpress.php:94
+msgid "New Gig"
+msgstr "Nouvelle date de concert"
+
+#: musicpress.php:95
+msgid "View Gig"
+msgstr "Vue Gig"
+
+#: musicpress.php:96
+msgid "Search Gigs"
+msgstr "Recherche concerts"
+
+#: musicpress.php:97
+msgid "No Gig found"
+msgstr "Aucun concert trouvé"
+
+#: musicpress.php:98
+msgid "No Gig found in Trash"
+msgstr "Aucun concert dans Trash"
+
+#: musicpress.php:119
+msgid "My Tracks"
+msgstr "Mes morceaux"
+
+#: musicpress.php:120
+msgid "Track"
+msgstr "Piste"
+
+#: musicpress.php:122
+msgid "Add New Track"
+msgstr "Ajouter la nouvelle piste"
+
+#: musicpress.php:123
+msgid "Edit Track"
+msgstr "Modifier la piste"
+
+#: musicpress.php:124
+msgid "New Track"
+msgstr "Nouvelle piste"
+
+#: musicpress.php:125
+msgid "View Track"
+msgstr "Vue piste"
+
+#: musicpress.php:126
+msgid "Search Tracks"
+msgstr "Pistes de recherche"
+
+#: musicpress.php:127
+msgid "No Track found"
+msgstr "Pas trouvé de piste"
+
+#: musicpress.php:128
+msgid "No Track found in Trash"
+msgstr "Aucune piste ne trouvée dans la corbeille"
+
+#: musicpress.php:150
+msgid "Fans"
+msgstr "Fans"
+
+#: musicpress.php:151
+msgid "My Fans"
+msgstr "Mes Fans"
+
+#: musicpress.php:152
+msgid "Fan"
+msgstr "Ventilateur"
+
+#: musicpress.php:154
+msgid "Add New Fan"
+msgstr "Ajouter nouveau ventilateur"
+
+#: musicpress.php:155
+msgid "Edit Fan"
+msgstr "Edit Fan"
+
+#: musicpress.php:156
+msgid "New Fan"
+msgstr "Ventilateur neuf"
+
+#: musicpress.php:157
+msgid "View Fan"
+msgstr "Vue Fan"
+
+#: musicpress.php:158
+msgid "Search Fans"
+msgstr "Recherche Fans"
+
+#: musicpress.php:159
+msgid "No Fan found"
+msgstr "Pas trouvé de ventilateur"
+
+#: musicpress.php:160
+msgid "No Fan found in Trash"
+msgstr "Non Ventilateur trouvé dans la corbeille"
+
+#: musicpress.php:223
+msgid "Welcome To MusicPress"
+msgstr "Bienvenue sur MusicPress"
+
+#~ msgid ""
+#~ "MusicPress currently translates into English, Chinese, French and Russian "
+#~ "with more languages being added with each new update. Let us know if you "
+#~ "need a language."
+#~ msgstr ""
+#~ "MusicPress les actuellement traduit en anglais, chinois, Français et "
+#~ "russe avec d'autres langues étant ajouté à chaque nouvelle mise à jour. "
+#~ "Faites-nous savoir si vous avez besoin d'une langue."
+
+#~ msgid ""
+#~ "to add tours, albums, sell your music and merchandise plus awesome extras."
+#~ msgstr ""
+#~ "pour ajouter des tournées, albums, vendre votre musique et de "
+#~ "marchandises plus extra impressionnants ."
+
+#~ msgid "address not entered"
+#~ msgstr "adresse ne pas entré"
+
+#~ msgid "Name"
+#~ msgstr "Nom"
+
+#~ msgid "Enter a name"
+#~ msgstr "Entrez un nom"
+
+#~ msgid "Age"
+#~ msgstr "Âge"
+
+#~ msgid "00"
+#~ msgstr "00"
+
+#~ msgid "Albums"
+#~ msgstr "Albums"
+
+#~ msgid ""
+#~ "Sell your albums, take payments and notify fans of pre-releases. Generate "
+#~ "buzz by offering discount codes to loyal fans."
+#~ msgstr ""
+#~ "Vendez vos chansons , prendre des paiements et aviser fans de pré-"
+#~ "versions . Générer du buzz en proposant des codes de réduction pour les "
+#~ "fans fidèles ."
+
+#~ msgid "Tours"
+#~ msgstr "Tours"
+
+#~ msgid "Merchandise"
+#~ msgstr "Marchandise"
+
+#~ msgid ""
+#~ "Want to sell merchandise? Soon you will be able to using the MusicPress "
+#~ "integrated store. Simply add your products and sell."
+#~ msgstr ""
+#~ "Vous voulez vendre des marchandises ? Bientôt, vous serez en mesure "
+#~ "d'utiliser la boutique intégrée MusicPress. Simplement ajouter vos "
+#~ "produits et les vendre."
+
+#~ msgid "Feature Rich"
+#~ msgstr "Riche en fonctionnalités"
+
+#~ msgid ""
+#~ "Send HTML emails, add more social networks, more information on your "
+#~ "tracks, gigs by experiencing the full power of going MusicPress Pro"
+#~ msgstr ""
+#~ "Envoyer des emails HTML, ajouter des réseaux plus sociales, plus "
+#~ "d'informations sur vos pistes, concerts en faisant l'expérience toute la "
+#~ "puissance d'aller MusicPress Pro"
+
+#~ msgid "Here are the shortcodes you can use inside your pages"
+#~ msgstr "Voici les codes courts que vous pouvez utiliser dans vos pages"
+
+#~ msgid "Social urls can be linked to by using the mup_option('twitter')"
+#~ msgstr ""
+#~ "Urls sociaux peuvent être liés à l'aide de la mup_option ( ' twitter ' )"
+
+#~ msgid "Here you can overwrite the default MusicPress styling"
+#~ msgstr "Ici, vous pouvez remplacer le style de MusicPress par défaut"
+
+#~ msgid "Send email by WP-Cron"
+#~ msgstr "Envoyer email par WP-Cron"
+
+#~ msgid ""
+#~ "Email fans directly within MusicPress keeping them informed of your "
+#~ "activities. Build your fan base using the subscription widgets."
+#~ msgstr ""
+#~ "Ventilateurs directement au sein de MusicPress tenir informés de vos "
+#~ "activités par courriel. Construire votre base de fans en utilisant les "
+#~ "widgets de l'abonnement."
+
+#~ msgid ""
+#~ "MusicPress currently translates into 3 languages and is growing. Each new "
+#~ "version contains more languages."
+#~ msgstr ""
+#~ "MusicPress est actuellement traduit en 3 langues et est de plus en plus. "
+#~ "Chaque nouvelle version contient plus de langues."
+
+#~ msgid ""
+#~ "Going on tour, Give access to VIP ticket information and map data. List "
+#~ "tour venue information using the custom section in the MusicPress Pro "
+#~ "Panel"
+#~ msgstr ""
+#~ "En tournée, donner accès à l'information de billet VIP et données "
+#~ "cartographiques. Répertorie les informations de lieu de rendez-vous de "
+#~ "tour à l'aide de la section personnalisée dans le panneau Pro MusicPress"
+
+#~ msgid "HTML Email Rules"
+#~ msgstr "Règles HTML Email"
+
+#~ msgid "Soundcloud URL"
+#~ msgstr "Soundcloud URL"
