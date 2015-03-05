@@ -1,6 +1,6 @@
 === MusicPress ===
 Contributors: Jesse Cohen
-Tags: musicians, performers, artists, bands, concerts, record labels, gigs, shows
+Tags: musicians, performers, dj, producers, artists, bands, concerts, record labels, gigs, shows
 Requires at least: 3.8
 Tested up to: 3.8
 Stable tag: 1.0
