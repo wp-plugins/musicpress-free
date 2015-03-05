@@ -15,6 +15,8 @@ MusicPress is the definitive plugin for musicians and performers. With MusicPres
 
 MusicPress comes prebuilt with widgets, custom functions and simple shortcodes allowing you to enhance your WordPress website. 
 
+MusicPress currently translates in to Chinese, Russian, French and Spanish. With more languages added on every update.
+
 ### Pro Features Coming Very soon
 Subscribe at http://musicpress.io
 
