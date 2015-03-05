@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicPress\n"
-"POT-Creation-Date: 2015-03-03 21:49-0000\n"
-"PO-Revision-Date: 2015-03-03 21:49-0000\n"
+"POT-Creation-Date: 2015-03-05 20:46-0000\n"
+"PO-Revision-Date: 2015-03-05 20:47-0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh\n"
@@ -96,16 +96,24 @@ msgstr "没有输入电子邮件地址"
 msgid "Email address not valid."
 msgstr "电子邮件地址无效"
 
-#: assets/inc/mup-admin-email.php:82
+#: assets/inc/mup-admin-email.php:61
+msgid "Enter a subject."
+msgstr "输入一个主题"
+
+#: assets/inc/mup-admin-email.php:80
+msgid "Enter some content."
+msgstr "输入一些内容。"
+
+#: assets/inc/mup-admin-email.php:110
 msgid "Email sent. Please check your inbox."
 msgstr "电子邮件发送。请检查您的收件箱"
 
-#: assets/inc/mup-admin-email.php:92 assets/inc/mup-admin.php:565
+#: assets/inc/mup-admin-email.php:120 assets/inc/mup-admin.php:565
 #: assets/inc/mup-front-widgets.php:551
 msgid "Email could not be sent. Please check your email settings."
 msgstr "电子邮件无法传送。请检查您的电子邮件设置。"
 
-#: assets/inc/mup-admin-email.php:104 assets/inc/mup-front-widgets.php:564
+#: assets/inc/mup-admin-email.php:132 assets/inc/mup-front-widgets.php:564
 msgid "Unable to verify form submission."
 msgstr "无法验证表单提交"
 

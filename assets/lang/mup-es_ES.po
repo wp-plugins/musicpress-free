@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Blank Pot v1.0.0\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2015-03-03 21:48-0000\n"
+"POT-Creation-Date: 2015-03-05 20:51-0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Your Name <you@example.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -96,18 +96,26 @@ msgstr "Dirección de correo electrónico no entrado."
 msgid "Email address not valid."
 msgstr "La dirección de correo electrónico no es válida"
 
-#: inc/mup-admin-email.php:82
+#: inc/mup-admin-email.php:61
+msgid "Enter a subject."
+msgstr "Introduzca un asunto."
+
+#: inc/mup-admin-email.php:80
+msgid "Enter some content."
+msgstr "Ingrese algún contenido."
+
+#: inc/mup-admin-email.php:110
 msgid "Email sent. Please check your inbox."
 msgstr "Correo electrónico enviado. Por favor revise su bandeja de entrada."
 
-#: inc/mup-admin-email.php:92 inc/mup-admin.php:565
+#: inc/mup-admin-email.php:120 inc/mup-admin.php:565
 #: inc/mup-front-widgets.php:551
 msgid "Email could not be sent. Please check your email settings."
 msgstr ""
 "Correo electrónico no puede ser enviado. Por favor, compruebe su "
 "configuración de correo electrónico."
 
-#: inc/mup-admin-email.php:104 inc/mup-front-widgets.php:564
+#: inc/mup-admin-email.php:132 inc/mup-front-widgets.php:564
 msgid "Unable to verify form submission."
 msgstr "No se puede verificar el envío del formulario."
 

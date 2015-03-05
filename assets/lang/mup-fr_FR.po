@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicPress\n"
-"POT-Creation-Date: 2015-03-03 21:50-0000\n"
-"PO-Revision-Date: 2015-03-03 21:50-0000\n"
+"POT-Creation-Date: 2015-03-05 20:49-0000\n"
+"PO-Revision-Date: 2015-03-05 20:50-0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -96,18 +96,26 @@ msgstr "Adresse email non fourni."
 msgid "Email address not valid."
 msgstr "Adresse électronique non valable"
 
-#: assets/inc/mup-admin-email.php:82
+#: assets/inc/mup-admin-email.php:61
+msgid "Enter a subject."
+msgstr "Entrez un objet."
+
+#: assets/inc/mup-admin-email.php:80
+msgid "Enter some content."
+msgstr "Saisissez une du contenu."
+
+#: assets/inc/mup-admin-email.php:110
 msgid "Email sent. Please check your inbox."
 msgstr "Email envoyé. S'il vous plaît vérifier votre boîte de réception."
 
-#: assets/inc/mup-admin-email.php:92 assets/inc/mup-admin.php:565
+#: assets/inc/mup-admin-email.php:120 assets/inc/mup-admin.php:565
 #: assets/inc/mup-front-widgets.php:551
 msgid "Email could not be sent. Please check your email settings."
 msgstr ""
 "Courriel n'a pas pu être envoyé. S'il vous plaît vérifier vos paramètres de "
 "messagerie."
 
-#: assets/inc/mup-admin-email.php:104 assets/inc/mup-front-widgets.php:564
+#: assets/inc/mup-admin-email.php:132 assets/inc/mup-front-widgets.php:564
 msgid "Unable to verify form submission."
 msgstr "Impossible de vérifier l'envoi du formulaire."
 
