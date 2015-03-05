@@ -1,6 +1,6 @@
 <?php if( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 /*
-Plugin Name: MusicPress
+Plugin Name: MusicPress - FREE
 Plugin URI: http://musicpress.io
 Description: The Definitive WordPress Plugin For Musicians and Performers. PRO - Version coming very soon.
 Version: 1.0
