@@ -40,6 +40,13 @@ Please check with your web host that you can send bulk emails. MusicPress uses `
 
 Support is currently managed through email via support@musicpress.io
 
+== Screenshots ==
+
+1. Add your gig/show screen 
+2. Add your track/mix screen
+3. Email your fans screen
+4. Add your social networks screen
+
 == Changelog ==
 
 = 1.0 =
