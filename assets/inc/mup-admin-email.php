@@ -3,7 +3,7 @@ session_start();
 /**
  *
  *
- *	Fan Email processing 
+ *  Fan Email processing 
  *
  * 
  */
@@ -53,11 +53,39 @@ function mup_send_test_email(){
     $send_to  = sanitize_email( $_POST['email'] );
     $subject  = sanitize_text_field( $_POST['subject'] );
 
+    if( empty( $subject ) ) {
+
+       $response->add( array(
+          'data'  =>  'error',
+          'supplemental' => array(
+            'message' => __( 'Enter a subject.', 'mup' )
+            )
+          ));
+
+      $response->send();
+    }
+
     /**
      * Validate email body
      * @since 1.0
      */
     $email      = $_POST['content'];
+
+
+    if( empty( $email ) ) {
+
+       $response->add( array(
+          'data'  =>  'error',
+          'supplemental' => array(
+            'message' => __( 'Enter some content.', 'mup' )
+            )
+          ));
+
+      $response->send();
+    }
+
+
+
     $allowed    = wp_kses_allowed_html( 'post' );
     $protocols  = wp_allowed_protocols();
     $email      = wp_kses( $email, $allowed, $protocols );
