@@ -15,10 +15,10 @@ function mup_add_admin_scripts() {
 
 
     wp_enqueue_script( 'jquery-ui-tabs' );
-    wp_register_style( 'mup_admin_css', plugins_url( 'musicpress' ) . '/assets/css/mup-admin-styling.css', false, '1.0' );
+    wp_register_style( 'mup_admin_css', plugins_url( 'musicpress-free' ) . '/assets/css/mup-admin-styling.css', false, '1.0' );
     wp_enqueue_style( 'mup_admin_css' );
 
-    wp_register_script( 'mup_admin_script', plugins_url( 'musicpress' ) . '/assets/js/mup-admin-script.js', 'jquery', '1.0', true );
+    wp_register_script( 'mup_admin_script', plugins_url( 'musicpress-free' ) . '/assets/js/mup-admin-script.js', 'jquery', '1.0', true );
     wp_localize_script( 'mup_admin_script', 'mupAjax', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ), 'nonce' => wp_create_nonce( 'mup_email_nonce' ) ) );
     wp_enqueue_script('mup_admin_script' );
 
@@ -276,7 +276,7 @@ function mup_show_welcome_page() {
             <div class="headline-feature">
               <h2><?php esc_attr_e( 'Built For Musicians And Performers', 'mup' );?></h2>
               <div class="featured-image">
-                <img src="<?php echo plugins_url( 'musicpress' ); ?>/assets/img/musicpress-admin-feature-intro.png">
+                <img src="<?php echo plugins_url( 'musicpress-free' ); ?>/assets/img/musicpress-admin-feature-intro.png">
               </div>
               <h2><?php esc_attr_e( 'What You Get', 'mup' );?></h2>
                 <div class="feature-section col two-col">

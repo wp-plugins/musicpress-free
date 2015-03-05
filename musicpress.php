@@ -219,7 +219,7 @@ if( !class_exists( 'musicpress' ) ) {
 		 */
 		function mup_admin_menu()
 		{
-			add_menu_page( 'MusicPress', 'MusicPress', 'manage_options', 'musicpress', 'mup_show_welcome_page', plugins_url( 'musicpress' ) . '/assets/img/musicpress-admin-menu-logo.png', 25 );
+			add_menu_page( 'MusicPress', 'MusicPress', 'manage_options', 'musicpress', 'mup_show_welcome_page', plugins_url( 'musicpress-free' ) . '/assets/img/musicpress-admin-menu-logo.png', 25 );
 			add_submenu_page( 'musicpress', __( 'Welcome To MusicPress', 'mup' ), __( 'Welcome', 'mup' ), 'manage_options', 'musicpress' );
 			add_submenu_page( 'musicpress', __( 'Settings', 'mup' ), __( 'Settings', 'mup' ), 'manage_options', 'musicpress&tab=settings', 'mup_show_welcome_page' );
 

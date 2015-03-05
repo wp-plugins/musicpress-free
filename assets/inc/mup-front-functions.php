@@ -168,7 +168,7 @@ function mup_generate_css( $css_data ) {
  */
 function mup_enqueue_custom_css() {
 
-	$mup_plugin_front_css = plugins_url( 'musicpress/assets/css/musicpress.css', 'musicpress' );
+	$mup_plugin_front_css = plugins_url( 'musicpress-free/assets/css/musicpress.css', 'musicpress' );
 	wp_register_style( 'musicpress', $mup_plugin_front_css, 'style' );
 	
  	wp_enqueue_style( 'musicpress' );
@@ -194,7 +194,7 @@ add_action( 'wp_print_styles', 'mup_enqueue_custom_css' );
 function mup_enqueue_front_scripts() {
 
 	if( !is_admin() ) {
-		$mup_script_dir = plugins_url( 'musicpress/assets/js/musicpress.js', 'musicpress' );
+		$mup_script_dir = plugins_url( 'musicpress-free/assets/js/musicpress.js', 'musicpress' );
 		
 		wp_register_script( 'musicpress', $mup_script_dir, 'jquery', 1.0 );
 		wp_localize_script( 'musicpress', 'musicpressAjax', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
