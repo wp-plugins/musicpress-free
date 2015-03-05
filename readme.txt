@@ -2,7 +2,7 @@
 Contributors: Jesse Cohen
 Tags: musicians, performers, dj, producers, artists, bands, concerts, record labels, gigs, shows
 Requires at least: 3.8
-Tested up to: 3.8
+Tested up to: 4.1.1
 Stable tag: 1.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
