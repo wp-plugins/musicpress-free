@@ -194,12 +194,12 @@ if( !class_exists( 'musicpress' ) ) {
 			
 			$this->mup_options = array(
 				'version'		=>	MUP_VERSION,
-				'twitter'		=>	'http://twitter.com/musicpressvip',
-				'facebook'		=>	'http://facebook.com/musicpress',
-				'youtube'		=>	'http://youtub.com/musicpressvip',
-				'googleplus'	=>	'http://plus.google.com/musicpressvip',
-				'soundcloud'	=>	'http://soundcloud.com/sigma',
-				'itunes'		=>	'http://itunes.com/musicpressvip',
+				'twitter'		=>	'http://twitter.com/musicpresspro',
+				'facebook'		=>	'',
+				'youtube'		=>	'',
+				'googleplus'	=>	'',
+				'soundcloud'	=>	'',
+				'itunes'		=>	'',
 				'mpcron'		=>	'0',
 				'currency'		=>	'$',
 				'credit'		=>	'1'
