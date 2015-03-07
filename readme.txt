@@ -22,7 +22,7 @@ Subscribe at http://musicpress.io
 
 == Installation ==
 
-1. Upload `musicpress` to the `/wp-content/plugins/` directory
+1. Upload `musicpress-free` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. To create your tracks and gigs, simply add a new from the MusicPress admin panel.
 4. Easily show your tracks or upcoming gigs on a page using the `[mup-tracks]`,`[mup-gigs]` shortcodes. View more functionality on the settings panel.
