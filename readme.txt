@@ -36,6 +36,10 @@ Subscribe at http://musicpress.io
 
 Please check with your web host that you can send bulk emails. MusicPress uses `wp_mail()` functionality and maybe restricted by your web host. Pro version (coming very soon) will feature an easier mass email facility.
 
+= Documentation =
+
+You can access the documentation on how to use MusicPress here http://musicpress.io/documentation
+
 = How can I get support =
 
 Support is currently managed through email via support@musicpress.io
