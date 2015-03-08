@@ -54,11 +54,11 @@ function mup_custom_updated_messages($messages) {
 	    3 => __( 'Custom field deleted.', 'mup' ),
 	    4 => __( 'Gig updated.', 'mup' ),
 	    5 => isset( $_GET['revision']) ? sprintf( __( 'Gig restored to revision from %s', 'mup' ), wp_post_revision_title( (int) $_GET['revision'], false ) ) : false,
-	    6 => sprintf( __( 'Gig published. <a href="%s">View gig</a>', 'mup' ), esc_url( get_permalink($post_ID) ) ),
+	    6 => sprintf( __( 'Gig published.', 'mup' ), esc_url( get_permalink($post_ID) ) ),
 	    7 => __( 'Gig saved.', 'mup' ),
-	    8 => sprintf( __( 'Gig submitted. <a target="_blank" href="%s">Preview gig</a>', 'mup' ), esc_url( add_query_arg( 'preview', 'true', get_permalink( $post_ID) ) ) ),
-	    9 => sprintf( __( 'Gig scheduled for: <strong>%1$s</strong>. <a target="_blank" href="%2$s">Preview gig</a>', 'mup' ), date_i18n( __( 'M j, Y @ G:i' ), strtotime( $post->post_date ) ), esc_url( get_permalink( $post_ID ) ) ),
-	    10 => sprintf( __( 'Gig draft updated. <a target="_blank" href="%s">Preview gig</a>', 'mup' ), esc_url( add_query_arg( 'preview', 'true', get_permalink( $post_ID ) ) ) ),
+	    8 => sprintf( __( 'Gig submitted.', 'mup' ), esc_url( add_query_arg( 'preview', 'true', get_permalink( $post_ID) ) ) ),
+	    9 => sprintf( __( 'Gig scheduled for: <strong>%1$s</strong>.', 'mup' ), date_i18n( __( 'M j, Y @ G:i' ), strtotime( $post->post_date ) ), esc_url( get_permalink( $post_ID ) ) ),
+	    10 => sprintf( __( 'Gig draft updated.', 'mup' ), esc_url( add_query_arg( 'preview', 'true', get_permalink( $post_ID ) ) ) ),
   	);
 	// Fan custom message output
 	$messages['fan'] = array(

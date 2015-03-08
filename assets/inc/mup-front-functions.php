@@ -14,7 +14,7 @@
 
 /**
  * Get the id of the post
- * Original code from ACF - Adapted to work with MusicPres
+ * Original Inspired from ACF functionality - Adapted to work with MusicPres
  * @since 1.0
  */
 function mup_get_post_id( $post_id )
