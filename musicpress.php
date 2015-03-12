@@ -19,7 +19,7 @@ if( !class_exists( 'musicpress' ) ) {
 
 		public function __construct() {
 			
-			define('MUP_VERSION', '1.0');
+			define('MUP_VERSION', '1.2');
 
 
 			// Language Translation
