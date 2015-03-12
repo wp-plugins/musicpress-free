@@ -55,3 +55,6 @@ Support is currently managed through email via support@musicpress.io
 
 = 1.0 =
 * Initial release
+
+= 1.2 =
+* Addition of booking form shortcode
