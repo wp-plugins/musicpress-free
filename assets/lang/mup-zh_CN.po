@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicPress\n"
-"POT-Creation-Date: 2015-03-05 20:46-0000\n"
-"PO-Revision-Date: 2015-03-05 20:47-0000\n"
+"POT-Creation-Date: 2015-03-12 21:08-0000\n"
+"PO-Revision-Date: 2015-03-12 21:08-0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh\n"
@@ -189,32 +189,25 @@ msgid "Gig restored to revision from %s"
 msgstr "演唱会恢复 %s"
 
 #: assets/inc/mup-admin-functions.php:57
-#, php-format
-msgid "Gig published. <a href=\"%s\">View gig</a>"
-msgstr "更新 <a href=\"%s\">视图</a>"
+msgid "Gig published."
+msgstr ""
 
 #: assets/inc/mup-admin-functions.php:58
 msgid "Gig saved."
 msgstr "演唱会保存"
 
 #: assets/inc/mup-admin-functions.php:59
-#, php-format
-msgid "Gig submitted. <a target=\"_blank\" href=\"%s\">Preview gig</a>"
-msgstr "提交 gig。<a target=\"_blank\" href=\"%s\">预览演出</a>"
+msgid "Gig submitted."
+msgstr ""
 
 #: assets/inc/mup-admin-functions.php:60
 #, php-format
-msgid ""
-"Gig scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
-"\">Preview gig</a>"
+msgid "Gig scheduled for: <strong>%1$s</strong>."
 msgstr ""
-"演出定于： <strong>%1$s</strong>。<a target=\"_blank\" href=\"%2$s\">预览演出"
-"</a>"
 
 #: assets/inc/mup-admin-functions.php:61
-#, php-format
-msgid "Gig draft updated. <a target=\"_blank\" href=\"%s\">Preview gig</a>"
-msgstr "演唱会保存草稿 <a target=\"_blank\" href=\"%s\">预览音乐会</a>"
+msgid "Gig draft updated."
+msgstr ""
 
 #: assets/inc/mup-admin-functions.php:66
 msgid "Fan updated"
@@ -884,6 +877,22 @@ msgstr "没有发现在垃圾中"
 #: musicpress.php:223
 msgid "Welcome To MusicPress"
 msgstr "欢迎来到 MusicPress"
+
+#~ msgid "Gig published. <a href=\"%s\">View gig</a>"
+#~ msgstr "更新 <a href=\"%s\">视图</a>"
+
+#~ msgid "Gig submitted. <a target=\"_blank\" href=\"%s\">Preview gig</a>"
+#~ msgstr "提交 gig。<a target=\"_blank\" href=\"%s\">预览演出</a>"
+
+#~ msgid ""
+#~ "Gig scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+#~ "\">Preview gig</a>"
+#~ msgstr ""
+#~ "演出定于： <strong>%1$s</strong>。<a target=\"_blank\" href=\"%2$s\">预览"
+#~ "演出</a>"
+
+#~ msgid "Gig draft updated. <a target=\"_blank\" href=\"%s\">Preview gig</a>"
+#~ msgstr "演唱会保存草稿 <a target=\"_blank\" href=\"%s\">预览音乐会</a>"
 
 #~ msgid ""
 #~ "MusicPress currently translates into English, Chinese, French and Russian "

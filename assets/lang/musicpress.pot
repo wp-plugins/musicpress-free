@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Blank Pot v1.0.0\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2015-03-03 20:28-0000\n"
+"POT-Creation-Date: 2015-03-12 21:07-0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Your Name <you@example.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -96,16 +96,24 @@ msgstr ""
 msgid "Email address not valid."
 msgstr ""
 
-#: inc/mup-admin-email.php:82
+#: inc/mup-admin-email.php:61
+msgid "Enter a subject."
+msgstr ""
+
+#: inc/mup-admin-email.php:80
+msgid "Enter some content."
+msgstr ""
+
+#: inc/mup-admin-email.php:110
 msgid "Email sent. Please check your inbox."
 msgstr ""
 
-#: inc/mup-admin-email.php:92 inc/mup-admin.php:565
+#: inc/mup-admin-email.php:120 inc/mup-admin.php:565
 #: inc/mup-front-widgets.php:551
 msgid "Email could not be sent. Please check your email settings."
 msgstr ""
 
-#: inc/mup-admin-email.php:104 inc/mup-front-widgets.php:564
+#: inc/mup-admin-email.php:132 inc/mup-front-widgets.php:564
 msgid "Unable to verify form submission."
 msgstr ""
 
@@ -181,8 +189,7 @@ msgid "Gig restored to revision from %s"
 msgstr ""
 
 #: inc/mup-admin-functions.php:57
-#, php-format
-msgid "Gig published. <a href=\"%s\">View gig</a>"
+msgid "Gig published."
 msgstr ""
 
 #: inc/mup-admin-functions.php:58
@@ -190,20 +197,16 @@ msgid "Gig saved."
 msgstr ""
 
 #: inc/mup-admin-functions.php:59
-#, php-format
-msgid "Gig submitted. <a target=\"_blank\" href=\"%s\">Preview gig</a>"
+msgid "Gig submitted."
 msgstr ""
 
 #: inc/mup-admin-functions.php:60
 #, php-format
-msgid ""
-"Gig scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
-"\">Preview gig</a>"
+msgid "Gig scheduled for: <strong>%1$s</strong>."
 msgstr ""
 
 #: inc/mup-admin-functions.php:61
-#, php-format
-msgid "Gig draft updated. <a target=\"_blank\" href=\"%s\">Preview gig</a>"
+msgid "Gig draft updated."
 msgstr ""
 
 #: inc/mup-admin-functions.php:66
@@ -465,9 +468,9 @@ msgstr ""
 
 #: inc/mup-admin.php:297
 msgid ""
-"MusicPress currently translates into English, Chinese, French and Russian "
-"with more languages being added with each new update. Let us know if you "
-"need a language."
+"MusicPress currently translates into English, Chinese, French, Spanish and "
+"Russian with more languages being added with each new update. Let us know if "
+"you need a language."
 msgstr ""
 
 #: inc/mup-admin.php:301
