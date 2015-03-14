@@ -23,6 +23,36 @@ function mup_send_test_email(){
    */
   if( current_user_can( 'manage_options' ) && check_ajax_referer( 'mup_email_nonce', 'nonce', false ) ) {
 
+
+    $subject = strip_tags( htmlspecialchars( $_POST['subject'] ) );
+    $content = strip_tags( htmlspecialchars( $_POST['content'] ) );
+
+    if( empty( $subject ) ) {
+
+       $response->add( array(
+          'data'  =>  'error',
+          'supplemental' => array(
+            'message' => __( 'Subject blank', 'mup' )
+            )
+          ));
+
+      $response->send();
+
+    }
+
+    if( empty( $content ) ) {
+
+       $response->add( array(
+          'data'  =>  'error',
+          'supplemental' => array(
+            'message' => __( 'Content blank', 'mup' )
+            )
+          ));
+
+      $response->send();
+
+    }
+
     //Validate the email 
     $send_to  = $_POST['email'];
 
@@ -51,44 +81,11 @@ function mup_send_test_email(){
     }
 
     $send_to  = sanitize_email( $_POST['email'] );
-    $subject  = sanitize_text_field( $_POST['subject'] );
-
-    if( empty( $subject ) ) {
-
-       $response->add( array(
-          'data'  =>  'error',
-          'supplemental' => array(
-            'message' => __( 'Enter a subject.', 'mup' )
-            )
-          ));
-
-      $response->send();
-    }
-
-    /**
-     * Validate email body
-     * @since 1.0
-     */
-    $email      = $_POST['content'];
-
-
-    if( empty( $email ) ) {
-
-       $response->add( array(
-          'data'  =>  'error',
-          'supplemental' => array(
-            'message' => __( 'Enter some content.', 'mup' )
-            )
-          ));
-
-      $response->send();
-    }
-
 
 
     $allowed    = wp_kses_allowed_html( 'post' );
     $protocols  = wp_allowed_protocols();
-    $email      = wp_kses( $email, $allowed, $protocols );
+    $email      = wp_kses( $content, $allowed, $protocols );
 
 
     /**
@@ -166,7 +163,22 @@ unset($_SESSION['counter']);
     // Set the vars
     $email_count = $_POST['fan_count'];
     $subject = sanitize_text_field( $_POST['subject'] );
-    $content = $_POST['content'];
+    
+    $content = strip_tags( htmlspecialchars( $_POST['content'] ) );
+
+    if( empty( $subject ) ) {
+
+       echo json_encode( 'empty-subject' );
+      die();
+
+    }
+
+    if( empty( $content ) ) {
+
+      echo json_encode( 'empty-content' );
+      die();
+
+    }
 
     $email_count_update = $email_count / $email_count;
 
@@ -225,7 +237,7 @@ unset($_SESSION['counter']);
       }
       else {
         // No fan exists
-        echo json_encode( 'error' );
+        echo json_encode( 'empty-fan' );
         die();
       }
     

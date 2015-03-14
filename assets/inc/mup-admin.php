@@ -169,12 +169,19 @@ function musicpress_css_validation( $input ) {
  */
 function musicpress_email_validation( $input ) {
 
-   if ( !empty( $input['content'] ) )
+    if ( !empty( $input['content'] ) ) {
         
         $input['content'] = esc_textarea( stripslashes( $input['content'] ) );
-        add_settings_error( 'content', 'settings_updated', __( 'Email saved', 'mup' ), 'updated' );
+        add_settings_error( 'content', esc_attr( 'settings_updated' ), __( 'Email saved', 'mup' ), 'updated' );
+    }
+
+    if ( !empty( $input['subject'] ) ) {
+        
+        $input['subject'] = esc_textarea( stripslashes( $input['subject'] ) );    
+        add_settings_error( 'subject', esc_attr( 'settings_updated' ), __( 'Subject saved', 'mup' ), 'updated' );
+    }
     
-    return apply_filters( 'musicpress_email_validation', $input );
+    return $input;
 
 }
 
@@ -251,7 +258,6 @@ function mup_show_welcome_page() {
     ?>
     
     <div class="wrap about-wrap">
-      <?php settings_errors(); ?>
         <h1>MusicPress</h1>
         <div class="about-text">
           <?php echo  __( 'Thanks for downloading! MusicPress helps you list your gigs, tracks and notify your fans. ', 'mup' ); ?>
@@ -309,7 +315,7 @@ function mup_show_welcome_page() {
         // Do the settings pages
         ?>
         <div id="poststuff">
-        
+          <?php settings_errors(); ?>
         <form action="options.php" method="post">
         <div id="post-body" class="metabox-holder columns-2">
     
@@ -373,12 +379,9 @@ function mup_show_welcome_page() {
               <strong>mup_gig('');</strong> <?php echo __( 'Pull out individual gig information using this function.', 'mup' ); ?>
               <br><br>
               <strong>mup_track('')</strong> <?php echo __( 'Pull out individual track information using this function.', 'mup' ); ?>
-              <br><br>
-
-               
+              <br><br>              
 
               </div> <!-- .inside -->
-              
             
           </div> <!-- .meta-box-sortables -->
           
@@ -400,6 +403,7 @@ function mup_show_welcome_page() {
         ?>
 
         <div id="poststuff">
+          <?php settings_errors(); ?>
         <form action="options.php" method="post">
         <div id="post-body" class="metabox-holder columns-2">
     
@@ -481,9 +485,8 @@ function mup_show_welcome_page() {
        }
        else if( 'fan-email' == $active ) { ?>
 
-
         <div id="poststuff">
-        
+          <?php settings_errors(); ?>
         <div id="post-body" class="metabox-holder columns-2">
     
         <!-- main content -->

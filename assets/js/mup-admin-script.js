@@ -103,33 +103,89 @@ jQuery(document).ready(function($) {
         // Send the Ajax request
         $.post(mupAjax.ajaxurl, data, function(response) {
 
-            var result = jQuery.parseJSON(response);
+            // Vars
+            var result          = jQuery.parseJSON(response);
+            var progress_bar    = $("#mup-progressbar");
+            var email_success   = $(".send-email-success");
+            var email_error     = $(".send-email-error");
+            var notify          = $(".mup-notify");
+            var sending         = $(".mup-sending");
+            var email_window    = $(".mup-email-window");
+            var btn_test        = $("#mup-test");
+            var btn_save_email  = $("#save-email");
+            var btn_email_fans  = $("#mup-email-fans");
+
+            var update_message  = $(".send-email-error p.message");
 
             if(result == 'success') {
                 clearInterval(mup_interval);
                 console.log(response);
-                $("#mup-progressbar").attr('value', 100);
-                $(".send-email-success").delay(1000).slideDown();
-                $(".send-email-success").delay(2750).fadeOut();
+                progress_bar.attr('value', 100);
+                email_success.delay(1000).slideDown();
+                email_success.delay(2750).fadeOut();
 
                 // Switch back to content view
-                $(".mup-notify").delay(4500).fadeOut(); 
-                $(".mup-sending").delay(4500).slideUp();
-                $(".mup-email-window").delay(4000).slideDown();    
+                notify.delay(4500).fadeOut(); 
+                sending.delay(4500).slideUp();
+                email_window.delay(4000).slideDown();    
                     
                 // Enable the buttons 
-                $("#mup-test").delay(5000).prop('disabled', false);
-                $("#save-email").delay(5000).show();
-                $("#mup-email-fans").delay(5000).show();   
+                btn_test.delay(5000).prop('disabled', false);
+                btn_save_email.delay(5000).show();
+                btn_email_fans.delay(5000).show();   
 
+            }
+            else if(result == 'empty-fan') {
+                clearInterval(mup_interval);
+                update_message.html('No fans subscribed');
+                email_error.slideDown();
+                email_error.delay(4000).fadeOut();
+                notify.fadeOut(); 
+                sending.slideUp();
+                email_window.slideDown(); 
+                btn_test.prop('disabled', false);
+                btn_save_email.show();
+                btn_email_fans.show();
+            }
+            else if(result == 'empty-subject') {
+                clearInterval(mup_interval);
+                notify.fadeOut(); 
+                sending.slideUp();
+                email_window.slideDown(); 
+                update_message.html('Error Subject');
+                email_error.slideDown();
+                email_error.delay(4000).fadeOut();
+                 // Enable the buttons 
+                btn_test.prop('disabled', false);
+                btn_save_email.show();
+                btn_email_fans.show();   
+            }
+            else if(result == 'empty-content') {
+                clearInterval(mup_interval);
+                notify.fadeOut(); 
+                sending.slideUp();
+                email_window.slideDown(); 
+                update_message.html('Error Content');
+                email_error.slideDown();
+                email_error.delay(4000).fadeOut();
+                btn_test.prop('disabled', false);
+                btn_save_email.show();
+                btn_email_fans.show();
             }
             else if(result == 'error') {
                 clearInterval(mup_interval);
-                $(".send-email-error").slideDown();
-                 $(".send-email-error").delay(4000).fadeOut();
+                notify.fadeOut(); 
+                sending.slideUp();
+                email_window.slideDown(); 
+                update_message.html('Error sending email.');
+                email_error.slideDown();
+                email_error.delay(4000).fadeOut();
+                btn_test.prop('disabled', false);
+                btn_save_email.show();
+                btn_email_fans.show();
             }
             else {
-                $("#mup-progressbar").attr('value', result);
+                progress_bar.attr('value', result);
             }
          
 
