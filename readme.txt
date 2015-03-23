@@ -26,7 +26,7 @@ MusicPress currently translates in to:
 More languages coming.
 
 ### Pro Features Coming Very soon
-Subscribe at http://musicpress.io
+Subscribe at http://www.musicpress.io
 
 == Installation ==
 
