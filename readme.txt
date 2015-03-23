@@ -1,6 +1,6 @@
 === MusicPress ===
 Contributors: Jesse Cohen
-Tags: musicians, performers, dj, music, producers, artists, bands, concerts, record labels, gigs, shows, songwriting, booking form
+Tags: musicians, music, performers, dj, producers, artists, bands, singers, song, concerts, record labels, gigs, shows, songwriting, booking form, music player 
 Requires at least: 3.8
 Tested up to: 4.1.1
 Stable tag: 1.2
@@ -14,7 +14,7 @@ The Definitive WordPress Plugin For Musicians And Performers.
 
 MusicPress is the definitive plugin for musicians and performers. With MusicPress installed you can easily showcase your tracks and gigs, manage styling, create a fan base, collate bookings and send emails directly from within the WordPress admin. 
 
-MusicPress comes prebuilt with widgets, custom functions and simple shortcodes allowing you to enhance your WordPress website. 
+Prebuilt with widgets, custom functions and simple [shortcodes] allowing you to enhance your WordPress website. 
 
 MusicPress currently translates in to: 
 
@@ -26,7 +26,7 @@ MusicPress currently translates in to:
 More languages coming.
 
 ### Pro Features Coming Very soon
-Subscribe at http://musicpress.io
+Subscribe at http://www.musicpress.io
 
 == Installation ==
 
