@@ -18,12 +18,13 @@ Prebuilt with widgets, custom functions and simple [shortcodes] allowing you to 
 
 MusicPress currently translates in to: 
 
-1. Chinese 
-2. Russian
-3. French
-4. Spanish 
+1. English UK
+2. Chinese 
+3. Russian
+4. French
+5. Spanish 
 
-More languages coming.
+More languages coming with each update.
 
 ### Pro Features Coming Very soon
 Subscribe at http://www.musicpress.io
