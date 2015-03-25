@@ -8,11 +8,11 @@ Version: 1.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-The Definitive WordPress Plugin For Musicians And Performers.
+The WordPress Plugin For Musicians, DJ’s And Performers.
 
 == Description ==
 
-MusicPress is the definitive plugin for musicians and performers. With MusicPress installed you can easily showcase your tracks and gigs, manage styling, create a fan base, collate bookings and send emails directly from within the WordPress admin. 
+MusicPress is the plugin for musicians and performers. With MusicPress installed you can easily showcase your tracks and gigs, manage styling, create a fan base, collate bookings and send emails directly from within the WordPress admin. 
 
 Prebuilt with widgets, custom functions and simple [shortcodes] allowing you to enhance your WordPress website. 
 
