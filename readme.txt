@@ -2,9 +2,9 @@
 Contributors: Jesse Cohen
 Tags: musicians, music, performers, dj, producers, artists, bands, singers, song, concerts, record labels, gigs, shows, songwriting, booking form, music player 
 Requires at least: 3.8
-Tested up to: 4.1.1
-Stable tag: 1.2
-Version: 1.2
+Tested up to: 4.2.2
+Stable tag: 1.3
+Version: 1.3
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
