@@ -3,7 +3,7 @@
 Plugin Name: MusicPress - FREE
 Plugin URI: http://musicpress.io
 Description: The Definitive WordPress Plugin For Musicians and Performers. PRO - Version coming very soon.
-Version: 1.2
+Version: 1.3
 Author: Jesse Cohen
 Author URI: http://www.jessecohen.co.uk
 License: GPL
@@ -19,7 +19,7 @@ if( !class_exists( 'musicpress' ) ) {
 
 		public function __construct() {
 			
-			define('MUP_VERSION', '1.2');
+			define('MUP_VERSION', '1.3');
 
 
 			// Language Translation
