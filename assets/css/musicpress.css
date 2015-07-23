@@ -1,0 +1,149 @@
+/**
+ * 
+ * 
+ * 
+ * MusicPress CSS Style
+ * Overwrite these styles by creating them inside the css section of the admin area
+ *
+ *
+ * 
+ */
+
+/**
+ * 
+ *
+ * MusicPress Defaults
+ *
+ * 
+ */
+.clear { clear:both; }
+.page-numbers { border: 1px solid #000000; padding: 5px 8px; }
+img { max-width: 100%; height: auto; }
+a { transition: all 0.2s ease; }
+a:hover { color: #d5d5d5; }
+ul { list-style: none; }
+
+/**
+ * Error Handling 
+ */
+.mup-success, .mup-error { display: none; padding: 10px; }
+.mup-success {background-color: #00A364; margin-bottom: 20px;}
+.mup-error { background-color: #F44444; margin-bottom: 20px; }
+.mup-success .message, .mup-error .message { padding: 14px 0px; color: white; }
+.error-title { font-size: 20px; color: #ffffff; }
+
+/**
+ *
+ *	
+ *	Pages
+ *
+ * 
+ */
+
+/**
+ * Gigs Page
+ */
+.mup-gigs { margin: 10px 15px; }
+.mup-gigs .mup-gig { margin: 10px 0px; padding: 10px 15px; border: 1px solid #000000; }
+.mup-gigs .mup-gig .title { text-transform: uppercase; font-size: 1.1em; }
+.mup-gigs .mup-gig .address { font-size: .75em; }
+.mup-gigs .mup-gig .ticket { margin: 5px 0px; }
+.mup-gigs .mup-gig .ticket a { background-color: #000000; color: #ffffff; padding: 4px 8px; border: 1px solid #000000; }
+.mup-gigs .mup-gig .ticket a:hover { background-color: #ffffff; color: #000000; border: 1px solid #000000; }
+
+/**
+ * Tracks Page
+ */
+.mup-tracks { margin: 10px 15px; }
+.mup-tracks .mup-track { padding: 10px 15px; }
+.mup-tracks .mup-track .title { text-transform: uppercase; font-size: 1.1em; }
+.mup-tracks .mup-track .address { font-size: .75em; }
+.mup-tracks .mup-track .ticket { margin: 5px 0px; }
+.mup-tracks .mup-track .ticket a { background-color: #000000; color: #ffffff; padding: 4px 8px; border: 1px solid #000000; }
+.mup-tracks .mup-track .ticket a:hover { background-color: #ffffff; color: #000000; border: 1px solid #000000; }
+
+
+/**
+ *
+ *
+ *	Shortcodes
+ * 
+ * 
+ */
+
+/**
+ * Single Gig
+ */
+.mup-gig { margin: 10px 0px; padding: 20px 15px; border: 1px solid #000000; }
+.mup-gig .title { text-transform: uppercase; font-size: 1.1em; margin-top: 0px; margin-bottom:10px; }
+.mup-gig .address { font-size: .75em; }
+.mup-gig .ticket { margin: 5px 0px; }
+.mup-gig .ticket a { background-color: #000000; color: #ffffff; padding: 4px 8px; border: 1px solid #000000; }
+.mup-gig .ticket a:hover { background-color: #ffffff; color: #000000; border: 1px solid #000000; }
+
+/**
+ * Single Track
+ */
+.mup-track { margin: 10px 0px; padding: 20px 15px; border: 1px solid #000000; }
+.mup-track .title { text-transform: uppercase; font-size: 1.1em; margin-top: 0px; margin-bottom:10px; }
+.mup-track .description { font-size: .75em; }
+.mup-track .track-price { margin-bottom: 5px; }
+.mup-track .buy-link, .mup-track .SoundCloud { margin: 15px 5px 15px 0px; display: inline; }
+.mup-track .buy-link a, .mup-track .SoundCloud a { background-color: #000000; color: #ffffff; padding: 4px 8px; border: 1px solid #000000; }
+.mup-track .buy-link a:hover, .mup-track .SoundCloud a:hover { background-color: #ffffff; color: #000000; border: 1px solid #000000; }
+
+
+
+/**
+ *
+ * 
+ * Widgets 
+ *
+ * 
+ */
+
+
+/**
+ * FAN Subscribe idget
+ */
+#mup-fan-widget {}
+#mup-fan-widget .musicpress-email-input {}
+#mup-fan-widget .musicpress-subscribe-button { margin:10px 0px; }
+#mup-fan-widget .fan-success { background-color: #00A364; height: 50px; display: none; }
+#mup-fan-widget .fan-error { background-color: #F44444; height: 50px; display: none; }
+#mup-fan-widget .message { padding: 14px 10px; color: white; }
+
+/**
+ * GIGS Widget
+ */
+#mup-gigs-widget { line-height: 1.8em; }
+#mup-gigs-widget .mup-widget-gig { background-color: #000000; color: #ffffff; padding: 10px; min-height: 100px; height: auto; width: 100%; display: inline-block; margin-bottom: 20px; }
+#mup-gigs-widget .mup-widget-gig .date { }
+#mup-gigs-widget .mup-widget-gig .date { }
+#mup-gigs-widget .mup-widget-gig .date .month { }
+#mup-gigs-widget .mup-widget-gig .date .day { }
+#mup-gigs-widget .mup-widget-gig .address {  }
+#mup-gigs-widget .mup-widget-gig .address .title { display: inline-block; font-size: 1.2em; font-weight: bold; text-transform: uppercase; }
+#mup-gigs-widget .mup-widget-gig .address .meta { font-size: 14px; line-height:1em; }
+#mup-gigs-widget .mup-widget-gig .address .link a { color: #ffffff;}
+#mup-gigs-widget .mup-widget-gig .address .link a:hover { color: #d5d5d5; }
+
+
+/**
+ * TRACKS Widget
+ */
+#mup-tracks-widget { width: 100%; display: block; overflow: hidden; }
+#mup-tracks-widget .track-title { font-size: 1.2em; font-weight: bold; }
+#mup-tracks-widget .track-image { width: 100%; }
+#mup-tracks-widget .links { width: 100%; margin: 15px 0px; }
+#mup-tracks-widget .links ul li { display: inline; }
+#mup-tracks-widget .links ul.link a { background-color: #000000; border: 1px solid #000000; color: #ffffff; padding: 8px 12px; margin-right: 1px; }
+#mup-tracks-widget .links .link a:hover { background-color: #ffffff; border: 1px solid #000000; color: #000000; }
+
+/**
+ * BOOKING form 
+ */
+.mup-booking-input { margin-bottom: 20px;}
+.mup-booking-input textarea { height: 250px;}
+
+
